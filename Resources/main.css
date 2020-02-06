@@ -1,0 +1,27 @@
+.o-info-container{
+    width: 100%;
+    background-color: powderblue;
+    font-size: 16px;
+}
+.o-img-profile{
+    height: 10em;
+}
+.o-portfolio-container{
+    margin:2rem 5rem 1rem 0;
+    padding: 1rem;
+    background-color: aliceblue;
+   
+}
+.o-portfolio-container .o-brown{
+    background-color: cornsilk;
+}
+.o-project{
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+#project2{
+    background-color: antiquewhite;
+}
+
