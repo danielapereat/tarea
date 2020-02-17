@@ -10,32 +10,78 @@
     
 </head>
 <body class= "o-body">
+
+    <div class="o-topnav o-sticky" id="myTopnav">
+        <a href="#portfolio">PORTAFOLIO</a>
+        <a href="#about">CONTACTO</a>
+        <a id= "head" href="https://www.uao.edu.co/" target="_blank">UNIVERSIDAD AUTONOMA DE OCCIDENTE</a>
+      </div>
+
     <div id="infoContainer" class="o-info-container">
-        <img class="o-img-profile" src="Resources/Profile.png" alt="Foto del perfil del usuario">
-        <h1 id= "Name" class= "o-title">Daniela</h1>
-        <h2 class= "o-title">Perea Tarapuez</h2>
-        <p id= "Mail" class= "o-title">daniela.perea@uao.edu.co</p>
+        <div class = "o-profileText-container">
+            <h1 id= "Name" class= "o-title">DANIELA PEREA TARAPUEZ</h1>
+            <h2 class= "o-title">daniela.perea@uao.edu.co</h2>
+            <hr class="o-hr">
+            <p id= "Mail" class= "o-title">Estudiante de noveno semestre de ingenieria multimedia de la universidad Autonoma de Occidente</p>
+        </div>
+        <div class= "o-image-container">
+            <img class="o-img-profile" src="Resources/Profile.png" alt="Foto del perfil del usuario">
+        </div>
     </div>
-    <div id="portafolioContainer" class="o-portfolio-container">
-        <h2 class= "o-title2">Ultimos proyectos</h2>
-        <div id="project1" class= "o-project">
-            <img class="o-img-project" src="Resources/PosterIsland.jpg" alt="Foto del poster del videojuego island">
-            <h3 class= "o-title2">Island </h3>
-            <p class= "o-title2">Island es un videojuego de acción-aventura para consolas y móviles en el cual el protagonista deberá atravesar una serie de misiones, enfrentar obstáculos y enemigos para recolectar una serie de objetos especiales que le permitirán avanzar en el juego y completarlo. </p>
-            <a href="https://www.youtube.com/watch?v=_z5LsBovSH8&t=4s" target="_blank">Teaser</a>
+
+    <div id = "portfolio" class="o-portfolio-container">
+        <div id = "portfolioHead" class = "o-portfolioHead">
+            <h2 class= "o-title2">PORTAFOLIO</h2>
+            <hr id="hr-portfolio" class="o-hr">
         </div>
-        <div id="project2" class= "o-project">
-            <img class="o-img-project" src="Resources/Captura.JPG" alt="vista previa del funcionamiento de la aplicación de escritorio para reconocer formas">
-            <h3 class= "o-title2">Detección de formas para el movimiento un modelo 3D.</h3>
-            <p class= "o-title2">aplicación de escritorio que por medio de una cámara reconoce las formas realizadas con los dedos de las manos: triángulo, círculo, cuadrado. Dependiendo de la forma detectada genera un movimiento o acción específica en un avatar: saltar, saludar y desplazarse respectivamente.</p>
-            <a href="https://www.youtube.com/watch?v=Gmbu7HUj2jw&feature=youtu.be" target="_blank">Video</a>
+        <div class="o-portfolio-projects">
+            <div id="project1" class= "o-project">
+                <div class="o-projectTitle">
+                    <h3 class= "o-title3">Island</h3>
+                </div>
+                <img class="o-img-project" src="Resources/Vgame.png" alt="ilustracion de un control de videojuegos">
+                <p class= "o-description">Island es un videojuego de acción-aventura para consolas y móviles en el cual el protagonista deberá atravesar una serie de misiones, enfrentar obstáculos y enemigos para recolectar una serie de objetos especiales que le permitirán avanzar en el juego y completarlo. </p>
+                <a class="button" href="https://www.youtube.com/watch?v=_z5LsBovSH8&t=4s" target="_blank">Video</a>
+            </div>
+            <div id="project2" class= "o-project">
+                <div class="o-projectTitle">
+                    <h3 class= "o-title3">Reconocimiento de formas geometricas para el movimiento un modelo 3D</h3>
+                </div>
+                <img class="o-img-project" src="Resources/Scanner.png" alt="ilustracion que representa el reconocimiento de formas geometricas hechas con la mano">
+                <p class= "o-description">Aplicación de escritorio que por medio de una cámara reconoce las formas realizadas con los dedos de las manos: triángulo, círculo, cuadrado. Dependiendo de la forma detectada genera un movimiento o acción específica en un avatar: saltar, saludar y desplazarse respectivamente.</p>
+                <a class="button" href="https://www.youtube.com/watch?v=Gmbu7HUj2jw&feature=youtu.be" target="_blank">Video</a>
+            </div>
+            <div id="project3" class= "o-project">
+                <div class="o-projectTitle">
+                    <h3 class= "o-title3">Recorrido virtual por la sala principal de la catedral de zipaquirá</h3>
+                </div>
+                <img class="o-img-project" src="Resources/Cardbox.png" alt="imagen 360 del modelo 3D de la sala principal de la catedral de sal de zipaquirá">
+                <p class= "o-description">Vídeo 360° del Modelado 3D de la sala principal de la catedral de sal de zipaquirá que cuenta con una voz en off informativa la cual narra el proceso de construcción de la catedral</p>
+                <a id = "button3" class="button" href="https://www.youtube.com/watch?v=2ktx9ZRHvbw" target="_blank">Video</a>
+            </div>
         </div>
-        <div id="project3" class= "o-project o-brown">
-            <img class="o-img-project" src="Resources/Catedral1.jpg" alt="imagen 360 del modelo 3D de la sala principal de la catedral de sal de zipaquirá">
-            <h3 class= "o-title2">Recorrido virtual por la sala principal de la catedral de zipaquirá</h3>
-            <p class= "o-title2">vídeo 360° del Modelado 3D de la sala principal de la catedral de sal de zipaquirá que cuenta con una voz en off informativa la cual narra el proceso de construcción de la catedral</p>
-            <a href="https://www.youtube.com/watch?v=2ktx9ZRHvbw" target="_blank">Recorrido virtual</a>
+    </div>
+
+    <div id="about" class="o-contact-container">
+        <div id = "contact" class = "o-contactHead">
+            <h2 class= "o-title4">CONTACTO</h2>
+            <hr id="hr-contact" class="o-hr">
         </div>
+        <div class="o-contact-columns">
+            <div id="column1" class= "o-column">
+                <h2 class= "o-title5">Correo electronico:</h3>
+                <p id= "Name" class= "o-title5">daniela.perea@uao.edu.co</p>
+                <p class= "o-title5">danielapereatarapuez@gmail.com</p>
+            </div>
+            <div id="column2" class= "o-column">
+                <h2 class= "o-title5">Telefono:</h3>
+                <p id= "Name" class= "o-title5">Cel: 3217136139</p>
+                <p class= "o-title5">Tel: 5528973</p>
+            </div>
+        </div>
+    </div>
+    <div id = "footer" class="o-footer">
+        <p class= "o-title6">Desarrollado y diseñado por: danielapereat</p>
     </div>
 </body>
 </html>
